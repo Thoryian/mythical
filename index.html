@@ -1,1 +1,225 @@
-<!DOCTYPE html><html lang="en" class="dark"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5"><meta name="theme-color" content="#000"><title>mythicalrev</title><script src="https://cdn.tailwindcss.com"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/><link href="https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@300;400;500&display=swap" rel="stylesheet"><style>:root{color-scheme:dark}body{font-family:'SF Pro Display',system-ui,sans-serif;background:rgb(10,10,10);background:radial-gradient(circle,rgba(10,10,10,1) 0%,rgba(0,0,0,1) 100%);opacity:0;transition:opacity .8s ease-out}@keyframes float{0%{transform:translateY(0)}50%{transform:translateY(-10px)}100%{transform:translateY(0)}}@keyframes glow{0%{background-position:0 50%}50%{background-position:100% 50%}100%{background-position:0 50%}}@keyframes slideUp{from{transform:translateY(30px);opacity:0}to{transform:translateY(0);opacity:1}}@keyframes scaleIn{from{transform:scale(.95);opacity:0}to{transform:scale(1);opacity:1}}@keyframes fadeInRight{from{transform:translateX(20px);opacity:0}to{transform:translateX(0);opacity:1}}.gradient-text{background:linear-gradient(-45deg,#e879f9,#c084fc,#818cf8);background-size:200% 200%;animation:glow 5s ease infinite;-webkit-background-clip:text;-webkit-text-fill-color:transparent}.link-card{transition:all .4s cubic-bezier(.4,0,.2,1);transform:translateZ(0);animation:slideUp .6s cubic-bezier(.4,0,.2,1) backwards}.link-card:hover{transform:translateY(-3px) translateZ(0)}.notification{animation:scaleIn .4s cubic-bezier(.4,0,.2,1) forwards}.notification-hide{animation:fadeInRight .4s cubic-bezier(.4,0,.2,1) reverse forwards}.text-transition{transition:all .4s cubic-bezier(.4,0,.2,1)}</style></head><body class="text-white antialiased min-h-screen relative overflow-x-hidden selection:bg-purple-500/20"><div class="fixed inset-0 bg-gradient-to-br from-purple-500/5 via-transparent to-blue-500/5 pointer-events-none"></div><header class="fixed top-0 w-full z-50 backdrop-blur-2xl bg-black/40 border-b border-white/5 supports-[backdrop-filter]:bg-black/20"><nav class="container mx-auto px-6 py-4"><div class="flex items-center justify-between"><a href="#" class="text-2xl tracking-tight gradient-text hover:opacity-90 transition-all duration-300">mythicalrev</a><div class="flex items-center space-x-12"><a href="#about" class="text-sm text-gray-300 hover:text-purple-300 transition-colors duration-300">about</a><a href="#links" class="text-sm text-gray-300 hover:text-purple-300 transition-colors duration-300">links</a></div></div></nav></header><main class="pt-48 min-h-screen container mx-auto px-6 max-w-3xl relative"><div class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-96 bg-gradient-to-b from-purple-500/10 via-purple-500/5 to-transparent blur-3xl -z-10"></div><section id="about" class="mb-32 relative"><h1 class="text-7xl font-light mb-12 md:text-8xl tracking-tight"><span id="changing-text" class="gradient-text block h-24 text-transition"></span></h1><p class="text-gray-300 text-xl leading-relaxed hover:text-white transition-colors duration-500 max-w-xl backdrop-blur-sm bg-black/20 p-6 rounded-2xl border border-white/5">i do things fr</p></section><section id="links" class="space-y-5 relative"><div class="link-card backdrop-blur-xl bg-white/[0.03] rounded-3xl p-7 border border-white/[0.05] hover:bg-white/[0.08] hover:border-purple-500/20" style="animation-delay:100ms"><a href="https://github.com/MythicalRev" target="_blank" rel="noopener noreferrer" class="flex items-center justify-between group"><div class="flex items-center space-x-5"><i class="fab fa-github text-2xl group-hover:text-purple-400 transition-colors duration-300"></i><span class="text-base group-hover:text-purple-400 transition-colors duration-300">github</span></div><i class="fas fa-arrow-right opacity-0 group-hover:opacity-100 transition-all duration-300 transform group-hover:translate-x-1"></i></a></div><div class="link-card backdrop-blur-xl bg-white/[0.03] rounded-3xl p-7 border border-white/[0.05] hover:bg-white/[0.08] hover:border-purple-500/20" style="animation-delay:200ms"><a href="https://steamcommunity.com/id/mythicalrev" target="_blank" rel="noopener noreferrer" class="flex items-center justify-between group"><div class="flex items-center space-x-5"><i class="fab fa-steam text-2xl group-hover:text-purple-400 transition-colors duration-300"></i><span class="text-base group-hover:text-purple-400 transition-colors duration-300">steam</span></div><i class="fas fa-arrow-right opacity-0 group-hover:opacity-100 transition-all duration-300 transform group-hover:translate-x-1"></i></a></div><div class="link-card backdrop-blur-xl bg-white/[0.03] rounded-3xl p-7 border border-white/[0.05] hover:bg-white/[0.08] hover:border-purple-500/20" style="animation-delay:300ms"><a href="https://youtube.com/@mythicalrev" target="_blank" rel="noopener noreferrer" class="flex items-center justify-between group"><div class="flex items-center space-x-5"><i class="fab fa-youtube text-2xl group-hover:text-purple-400 transition-colors duration-300"></i><span class="text-base group-hover:text-purple-400 transition-colors duration-300">youtube</span></div><i class="fas fa-arrow-right opacity-0 group-hover:opacity-100 transition-all duration-300 transform group-hover:translate-x-1"></i></a></div><div class="link-card backdrop-blur-xl bg-white/[0.03] rounded-3xl p-7 border border-white/[0.05] hover:bg-white/[0.08] hover:border-purple-500/20 cursor-pointer" style="animation-delay:400ms" onclick="copyDiscord()"><div class="flex items-center justify-between group"><div class="flex items-center space-x-5"><i class="fab fa-discord text-2xl group-hover:text-purple-400 transition-colors duration-300"></i><span class="text-base group-hover:text-purple-400 transition-colors duration-300">mythicalrev</span></div><i class="fas fa-copy opacity-0 group-hover:opacity-100 transition-all duration-300 transform group-hover:scale-110"></i></div></div></section></main><div id="notification" class="fixed bottom-6 right-6 bg-purple-500/10 backdrop-blur-2xl rounded-2xl p-5 hidden max-w-sm shadow-2xl z-50 border border-purple-500/20"><div class="flex items-center space-x-4"><i class="fas fa-check text-purple-400"></i><span class="text-base text-gray-200">Discord username copied!</span></div></div><footer class="py-12 mt-32 border-t border-purple-500/10 backdrop-blur-xl bg-black/20"><div class="container mx-auto px-6 text-center"><p class="text-sm text-gray-400">© 2025 mythicalrev.uk</p><p class="text-sm text-gray-400 mt-3">made with 💜 by <a href="https://oncemiri.net" target="_blank" rel="noopener noreferrer" class="hover:text-purple-400 transition-colors duration-300">oncemiri.net</a></p></div></footer><script>document.body.style.opacity='1';const titles=["developer.","content creator.","furry fr.","goober :3","dumbass","💀","why are there so many of these","fun fact: you are reading this","literally born on a tragedy","hola","i wrote this while half asleep","kitty","what the fuck is a kilometre","jk im canadian"];let currentIndex=0;const textElement=document.getElementById('changing-text');function updateText(){textElement.style.opacity='0';textElement.style.transform='translateY(10px)';setTimeout(()=>{currentIndex=(currentIndex+1)%titles.length;textElement.textContent=titles[currentIndex];textElement.style.opacity='1';textElement.style.transform='translateY(0)';},300)}textElement.textContent=titles[0];const interval=setInterval(updateText,5000);function copyDiscord(){navigator.clipboard.writeText('mythicalrev');const notification=document.getElementById('notification');notification.classList.remove('hidden','notification-hide');notification.classList.add('notification');setTimeout(()=>{notification.classList.add('notification-hide');setTimeout(()=>{notification.classList.add('hidden');notification.classList.remove('notification','notification-hide');},400);},2000)}const observer=new IntersectionObserver((entries)=>{entries.forEach(entry=>{if(entry.isIntersecting){entry.target.style.opacity='1';observer.unobserve(entry.target);}});},{threshold:0.1});document.querySelectorAll('.link-card').forEach(card=>{observer.observe(card);});</script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+          <head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width,initial-scale=1">
+                    <title>mythical</title>
+                    <script src="https://cdn.tailwindcss.com"></script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+                    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+                    <style>
+                              body {
+                                        font-family: 'Outfit', sans-serif;
+                                        background: #0a0a0a
+                              }
+
+                              .glass {
+                                        background: rgba(18, 18, 18, .95);
+                                        backdrop-filter: blur(16px)
+                              }
+
+                              .glass-border {
+                                        border: 1px solid rgba(255, 255, 255, .08);
+                                        border-radius: 1rem
+                              }
+
+                              .heart-mode {
+                                        background: #1a0f1f !important;
+                                        background-image: radial-gradient(circle at 50% 50%, #2d1428 0, #1a0f1f 100%) !important
+                              }
+
+                              .heart-mode .glass {
+                                        background: rgba(40, 20, 44, .95);
+                                        box-shadow: 0 8px 32px rgba(255, 182, 193, .1)
+                              }
+
+                              .heart-mode .glass-border {
+                                        border-color: rgba(255, 182, 193, .15)
+                              }
+
+                              .heart-mode .link-card:hover {
+                                        border-color: rgba(255, 182, 193, .3);
+                                        box-shadow: 0 8px 32px rgba(255, 182, 193, .15)
+                              }
+
+                              .link-card {
+                                        transition: all .3s ease;
+                                        border-radius: 1rem
+                              }
+
+                              .link-card:hover {
+                                        transform: translateY(-2px)
+                              }
+
+                              .tooltip {
+                                        position: relative
+                              }
+
+                              .tooltip::after {
+                                        content: 'copied!';
+                                        position: absolute;
+                                        bottom: 120%;
+                                        left: 50%;
+                                        transform: translateX(-50%);
+                                        background: #000;
+                                        padding: 4px 12px;
+                                        border-radius: 1rem;
+                                        font-size: 12px;
+                                        opacity: 0;
+                                        pointer-events: none;
+                                        transition: opacity .3s
+                              }
+
+                              .tooltip.show::after {
+                                        opacity: 1
+                              }
+
+                              .star {
+                                        position: absolute;
+                                        background: radial-gradient(circle, rgba(255, 255, 255, .8) 0, rgba(255, 255, 255, 0) 70%);
+                                        border-radius: 50%;
+                                        animation: twinkle var(--duration) var(--delay) infinite ease-in-out
+                              }
+
+                              .heart-mode .star {
+                                        background: radial-gradient(circle, rgba(255, 182, 193, .8) 0, rgba(255, 182, 193, 0) 70%)
+                              }
+
+                              .profile-img {
+                                        width: 64px;
+                                        height: 64px;
+                                        border-radius: 50%;
+                                        object-fit: cover;
+                                        margin-right: 12px
+                              }
+
+                              @keyframes twinkle {
+
+                                        0%,
+                                        100% {
+                                                  opacity: .3
+                                        }
+
+                                        50% {
+                                                  opacity: .7
+                                        }
+                              }
+                    </style>
+          </head>
+          <body class="min-h-screen text-white opacity-0">
+                    <div class="stars fixed inset-0 pointer-events-none"></div>
+                    <main class="flex flex-col items-center justify-center min-h-screen p-6 relative">
+                              <div class="text-center space-y-8 w-full max-w-md mx-auto">
+                                        <div class="mb-12 opacity-0" id="header">
+                                                  <h1 class="text-6xl font-semibold tracking-tight mb-4">mythical</h1>
+                                                  <div class="inline-flex items-center p-3 px-5 rounded-2xl glass-border glass">
+                                                            <img src="https://i.pinimg.com/236x/d4/c8/08/d4c8089eeb6df31fd6f0ff30eee92ef7.jpg" class="profile-img" alt="profile">
+                                                            <span class="text-white/80 text-lg">developer • 15</span>
+                                                  </div>
+                                        </div>
+                                        <div class="space-y-3">
+                                                  <button onclick="copydiscord()" class="px-5 py-3 rounded-xl glass-border hover:bg-white/5 transition-all duration-300 tooltip text-sm inline-flex items-center gap-3 opacity-0">
+                                                            <i class="fab fa-discord"></i>mythicalrev </button>
+                                        </div>
+                                        <div class="mt-12 space-y-3">
+                                                  <a href="https://github.com/MythicalRev" target="_blank" class="link-card w-full px-6 py-4 rounded-xl glass hover:bg-black/50 transition-all duration-300 text-sm font-medium glass-border flex items-center justify-center gap-3 opacity-0">
+                                                            <i class="fab fa-github text-xl"></i>
+                                                            <span>github</span>
+                                                  </a>
+                                                  <a href="https://youtube.com/@mythicalrev" target="_blank" class="link-card w-full px-6 py-4 rounded-xl glass hover:bg-black/50 transition-all duration-300 text-sm font-medium glass-border flex items-center justify-center gap-3 opacity-0">
+                                                            <i class="fab fa-youtube text-xl text-red-500"></i>
+                                                            <span>youtube</span>
+                                                  </a>
+                                                  <button onclick="togglemodal()" class="link-card w-full px-6 py-4 rounded-xl glass hover:bg-black/50 transition-all duration-300 text-sm font-medium glass-border flex items-center justify-center gap-3 opacity-0">
+                                                            <i class="fas fa-code text-xl text-purple-400"></i>
+                                                            <span>projects</span>
+                                                  </button>
+                                        </div>
+                                        <p class="text-sm text-white/60 pt-12 opacity-0" id="footer">made with <i class="fas fa-heart text-red-500 cursor-pointer hover:scale-125 transition-transform" onclick="toggleheart()"></i> by <a href="https://oncemiri.net" target="_blank" class="hover:text-white/90 transition-colors">oncemiri.net</a>
+                                        </p>
+                              </div>
+                    </main>
+                    <div id="modal" class="fixed inset-0 bg-black/90 backdrop-blur-md p-4 flex items-center justify-center z-50 opacity-0 pointer-events-none transition-all duration-300">
+                              <div class="max-w-xl w-full glass rounded-2xl p-8 glass-border shadow-2xl">
+                                        <div class="space-y-8">
+                                                  <div class="flex justify-between items-center">
+                                                            <h3 class="font-medium text-2xl flex items-center gap-3">projects <i class="fas fa-rocket text-blue-400"></i>
+                                                            </h3>
+                                                            <button onclick="togglemodal()" class="text-white/60 hover:text-white transition-all duration-300 hover:rotate-90 p-2">
+                                                                      <i class="fas fa-times"></i>
+                                                            </button>
+                                                  </div>
+                                                  <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                                            <div class="glass-border rounded-xl p-6 hover:bg-black/50 transition-all duration-300">
+                                                                      <div class="flex items-center gap-3 mb-4">
+                                                                                <i class="fas fa-wand-sparkles text-yellow-400 text-xl"></i>
+                                                                                <h4 class="font-medium text-lg">current</h4>
+                                                                      </div>
+                                                                      <p class="text-white/80">placeholder</p>
+                                                            </div>
+                                                            <div class="glass-border rounded-xl p-6 hover:bg-black/50 transition-all duration-300">
+                                                                      <div class="flex items-center gap-3 mb-4">
+                                                                                <i class="fas fa-code text-purple-400 text-xl"></i>
+                                                                                <h4 class="font-medium text-lg">skills</h4>
+                                                                      </div>
+                                                                      <div class="flex flex-wrap gap-6 text-2xl">
+                                                                                <i class="fab fa-js text-yellow-400 hover:scale-110 transition-transform cursor-pointer"></i>
+                                                                                <i class="fab fa-html5 text-orange-500 hover:scale-110 transition-transform cursor-pointer"></i>
+                                                                                <i class="fab fa-css3-alt text-blue-500 hover:scale-110 transition-transform cursor-pointer"></i>
+                                                                      </div>
+                                                            </div>
+                                                  </div>
+                                        </div>
+                              </div>
+                    </div>
+                    <script>
+                              const modal = document.getElementById("modal");
+                              let ismodalopen = !1;
+
+                              function fadeIn(e, t = 0) {
+                                        gsap.to(e, {
+                                                  opacity: 1,
+                                                  duration: .6,
+                                                  delay: t,
+                                                  ease: "power2.out"
+                                        })
+                              }
+                              fadeIn("body");
+                              fadeIn("#header", .2);
+                              document.querySelectorAll(".link-card, .tooltip").forEach((e, t) => fadeIn(e, .3 + t * .1));
+                              fadeIn("#footer", .8);
+
+                              function togglemodal() {
+                                        ismodalopen = !ismodalopen;
+                                        modal.style.opacity = ismodalopen ? "1" : "0";
+                                        modal.style.pointerEvents = ismodalopen ? "auto" : "none"
+                              }
+
+                              function toggleheart() {
+                                        document.body.classList.toggle("heart-mode")
+                              }
+
+                              function copydiscord() {
+                                        navigator.clipboard.writeText("mythicalrev");
+                                        const e = document.querySelector(".tooltip");
+                                        e.classList.add("show");
+                                        setTimeout(() => e.classList.remove("show"), 2e3)
+                              }
+
+                              function createstars() {
+                                        const e = document.querySelector(".stars");
+                                        let t = "";
+                                        for (let n = 0; n < 150; n++) {
+                                                  const o = Math.random() * 100,
+                                                            a = Math.random() * 100,
+                                                            r = Math.random() * 2 + 1;
+                                                  t += `
+									<div class="star" style="left:${o}%;top:${a}%;width:${r}px;height:${r}px;--duration:${8+Math.random()*12}s;--delay:${Math.random()*2}s;"></div>`
+                                        }
+                                        e.innerHTML = t
+                              }
+                              createstars();
+                    </script>
+          </body>
+</html>
